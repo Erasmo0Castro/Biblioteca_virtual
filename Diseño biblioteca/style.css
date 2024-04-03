@@ -41,7 +41,7 @@ body, html {
     grid-template-columns: repeat(2, 1fr); 
     grid-gap: 9px; 
     padding: 15px; 
-    background-color: #4b2e09;
+    background-color: #bcb6af;
 border-radius: 17px;
     margin: 3px;
 
@@ -109,7 +109,7 @@ border-radius: 17px;
 }
 
 .book {
-    background-color: #864a22;
+    background-color: #174171;
     border-radius: 10px;
     padding: 1px;
     margin: 8px;
@@ -125,7 +125,7 @@ border-radius: 17px;
 }
 
 .phone {
-    background-color: #422222;
+    background-color: #174171;
     border-radius: 20px;
     box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.5);
     width: 320px;
@@ -148,7 +148,7 @@ h1{
 }
 
 .status-bar {
-    background-color: #333;
+    background-color: #151414;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -238,7 +238,7 @@ input{
 
 
 .minu{
-    background-color: #ebdfd4;
+    background-color: #f1ede9;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
@@ -262,7 +262,7 @@ input{
     margin: 1px;
 }
 .book{
-    background-color: #ba8561;
+    background-color: #f1edea;
     color: #000000;
   
     border: 2px solid  #000000;
