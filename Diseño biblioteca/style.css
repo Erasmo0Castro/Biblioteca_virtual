@@ -1,0 +1,269 @@
+body, html {
+    margin: 100px;
+    padding: 0;
+    height: 100%;
+}
+
+.phone {
+    background-color: #000000;
+    border-radius: 1px;
+    box-shadow: 300px 300px 100px 100px rgba(0, 0, 0, 0.5);
+    width: 320px; /* Ancho del teléfono */
+    height: 640px; /* Alto del teléfono */
+    margin: 80px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.phone::before {
+    
+  
+    background: url(img/100añosdesoledad.jpeg);
+   background-repeat: round;
+   
+    display: block;
+    width: 300px; /* Ancho de la pantalla */
+    height: 540px; /* Alto de la pantalla */
+    background-color: #b38e79;
+    position: absolute;
+    border-radius: 1%;
+    top: 80px;
+    left: 10px;
+}
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 9px; 
+    padding: 15px; 
+    background-color: #4b2e09;
+border-radius: 17px;
+    margin: 3px;
+
+    margin-top: 0px;
+ 
+}
+
+.grid-item {
+    display: flex;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+
+}
+
+.img1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+.book:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    background-color: #925318;
+    
+}
+
+
+.minu:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    background-color: #d16500;
+    border-color: #000000;
+    border: 2px solid #000000;
+    
+}
+
+.img1{
+    border-radius: 19px;
+    width: 140px;
+    height: 173px;
+}
+
+
+
+.book {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.book img {
+    width: 50px; 
+    height: 30px;
+    margin-right: 10px;
+}
+
+.book h3 {
+    margin: 0;
+}
+
+.book {
+    background-color: #864a22;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column; /* Alinea la imagen y el texto verticalmente */
+    align-items: center;
+}
+
+.book-image {
+    width: 350px; /* Ajusta el tamaño de la imagen */
+    height: 200px;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.phone {
+    background-color: #422222;
+    border-radius: 20px;
+    box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.5);
+    width: 320px;
+    height: 640px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+
+    border: 1px solid #ffffff;
+}
+
+h1{
+    
+    margin: 40px;
+    color: #ffffff;
+    font-weight: 900;
+    margin-left: 10px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.status-bar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.time {
+    font-weight: bold;
+}
+
+.battery {
+    width: 30px;
+    height: 11px;
+    background-color: #444;
+    border-radius: 0px;
+    position: relative;
+}
+
+.battery-level {
+    width: 80%;
+    height: 80%;
+    background-color: #0f0; /* Color de la batería cargada */
+    border-radius: 0 0px 0px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 11px;
+    text-align: center;
+}
+
+
+.books {
+    padding: 20px;
+}
+
+.book {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-image {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+
+.buscar{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10px;
+    margin-left: 5px;
+    margin-top: 16px;
+}
+
+.buscar{
+    margin-left: 70px;
+    width: 150px;
+height: 18px;
+padding: 10px;
+}
+
+input{
+    margin-top: 10px;
+    width: 101px;
+    height: auto;
+    border-radius: 21px;
+    margin-left: 50px;
+}
+
+
+
+
+.minu{
+    background-color: #ebdfd4;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    margin-left: 5px;
+    margin-top: 23px;
+    border: 1px solid #000000;
+}
+
+.status-bar .fas.fa-wifi {
+    color: #fff;
+    margin-left: 190px; /* Espacio entre el ícono y la hora */
+}
+
+.png{
+    width: 40px;
+    height: 50px;
+    margin: 1px;
+}
+.book{
+    background-color: #ba8561;
+    color: #000000;
+  
+    border: 2px solid  #000000;
+}
